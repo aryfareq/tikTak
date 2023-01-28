@@ -1,8 +1,25 @@
 *{
     margin: 0;
     padding: 0;
-}
-body{
     background-color: rgb(64, 75, 106);
 }
-
+button{
+    width: 200px;
+    height:200px;
+    background-color: rgb(141, 141, 141);
+}
+button:hover, button:active{
+    width: 200px;
+    height:200px;
+    background-color: rgb(64, 75, 106);
+}
+.container{
+    position: absolute;
+    top:30%;
+    left:40%;
+    display:grid;
+    grid-template-columns: auto auto auto;
+    gap:5px;
+    background-color: black;
+    box-shadow:5px 5px 10px;
+}
