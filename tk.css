@@ -23,3 +23,9 @@ button:hover, button:active{
     background-color: black;
     box-shadow:5px 5px 10px;
 }
+.buttonMe{
+    background-color: blue;
+}
+.buttonAi{
+    background-color: red;
+}
